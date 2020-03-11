@@ -2,18 +2,13 @@
 
 [Pythia](https://github.com/facebookresearch/pythia) is a modular framework for vision and language multimodal research from [Facebook AI Research (FAIR)](https://github.com/facebookresearch). Based on it, this repo conducted some baseline about VQA.
 
-# Quickstart [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z9fsh10rFtgWe4uy8nvU4mQmqdokdIRR) [![](https://circleci.com/gh/facebookresearch/pythia.svg?style=svg)](https://circleci.com/gh/facebookresearch/pythia)
-
-
-**Authors**: Amanpreet Singh
+# Quickstart [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z9fsh10rFtgWe4uy8nvU4mQmqdokdIRR) 
 
 In this quickstart, we are going to train LoRRA model on TextVQA. Follow instructions at the bottom
 to train other models in Pythia.
 
-## Demo
 
-1. [Pythia VQA](https://colab.research.google.com/drive/1Z9fsh10rFtgWe4uy8nvU4mQmqdokdIRR) 
-2. [BUTD Captioning](https://colab.research.google.com/drive/1vzrxDYB0vxtuUy8KCaGxm--nDCJvyBSg)
+
 
 ## Installation
 
@@ -151,35 +146,6 @@ After downloading the features, verify the download by checking the md5sum using
 echo "<checksum>  <dataset_name>.tar.gz" | md5sum -c -
 ```
 
-## Next steps
+## Demo
 
-To dive deep into world of Pythia, you can move on the following next topics:
-
-- [Concepts and Terminology](./concepts)
-- [Using Pretrained Models](./pretrained_models)
-- [Challenge Participation](./challenge)
-
-## Citation
-
-If you use Pythia in your work, please cite:
-
-```text
-@inproceedings{Singh2019TowardsVM,
-  title={Towards VQA Models That Can Read},
-  author={Singh, Amanpreet and Natarajan, Vivek and Shah, Meet and Jiang, Yu and Chen, Xinlei and Batra, Dhruv and Parikh, Devi and Rohrbach, Marcus},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2019}
-}
-```
-
-and
-
-```text
-@inproceedings{singh2019pythia,
-  title={Pythia-a platform for vision \& language research},
-  author={Singh, Amanpreet and Natarajan, Vivek and Jiang, Yu and Chen, Xinlei and Shah, Meet and Rohrbach, Marcus and Batra, Dhruv and Parikh, Devi},
-  booktitle={SysML Workshop, NeurIPS},
-  volume={2018},
-  year={2019}
-}
-```
+  - [Pythia VQA](https://colab.research.google.com/drive/1Z9fsh10rFtgWe4uy8nvU4mQmqdokdIRR) 
